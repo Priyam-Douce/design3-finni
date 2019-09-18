@@ -63,3 +63,13 @@ a{
 #services img{
 	margin-top:50px;
 }
+
+#companies{
+	background-color:#f4f4f4;
+	padding-top:50px;
+}
+
+#featured_jobs{
+	background-color:#063f5d;
+	color:#FFF;
+}
