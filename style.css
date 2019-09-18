@@ -21,3 +21,45 @@ body{
     background-color: #fff;
 	*/
 }
+a{
+	color:inherit;
+}
+
+#header{
+	background-image:url(images/banner.png);
+	background-size:cover;
+	height:435px;
+	color:#FFF;
+	overflow:hidden;
+}
+#header .logo{
+	float:left;
+}
+#header .menu_area{
+	float:right;
+}
+#header ul{
+	list-style-type:none;
+	text-align:right;
+}
+#header li{
+	display:inline-block;
+}
+#header .header_bottom{
+	margin:50px auto 20px;
+	padding:50px;
+	background:rgba(0,0,0,0.4); 
+	text-align:center;
+}
+#header .header_bottom button{
+	background-color:transparent;
+	padding:10px;
+	border-radius:25px;
+	border:solid #FFF 2px;
+}
+#services{
+	text-align:center;
+}
+#services img{
+	margin-top:50px;
+}
