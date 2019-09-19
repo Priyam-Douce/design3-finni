@@ -428,6 +428,28 @@ h2{
 	padding-top:30px;
 	padding-bottom:30px;
 }
+#featured_video_area a{
+	padding:10px 0px;
+	display: block;
+    font-size: 18px;
+    font-weight: 600; 
+	color:#063f5d;
+}
+#featured_video_area button{
+	display: inline-block ;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff ;
+    font-size: 15px ;
+    padding: 10px 45px;
+    background: #e34a3c;
+	border:none;
+	font-weight:bold;
+	margin-top:50px;	
+}
+
+
+
 
 /* upcoming events & newsletter area */
 #upcoming_events_area{
