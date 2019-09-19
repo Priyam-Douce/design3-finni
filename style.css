@@ -294,7 +294,7 @@ h2{
 	padding-top:30px;
 	padding-bottom:30px;
 }
-#upcoming_courses_area h2{
+#upcoming_courses_area h2, #latest_tips_area h2{
 	text-align:center;
 }
 #upcoming_courses_area img{
@@ -318,6 +318,22 @@ h2{
 	padding-top:30px;
 	padding-bottom:30px;
 }
+#latest_tips_area img{
+	width:144px;
+	height:144px;
+	object-fit: cover;
+	float:left;
+}
+#latest_tips_area a{
+	color:#005b87;
+	display: block;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+
+
 
 /* featured podcast area */
 #featured_podcast_area{
