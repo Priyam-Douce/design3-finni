@@ -328,11 +328,25 @@ h2{
 	color:#005b87;
 	display: block;
     font-size: 18px;
-    font-weight: 600;
-    
+    font-weight: 600;  
 }
-
-
+#latest_tips_area .top_text{
+	position: absolute;
+    top: 10px;
+    left: 22px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 12px;
+}
+#latest_tips_area .row{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+#latest_tips_area .data_area{
+	padding:10px;
+	padding-left:154px;
+}
 
 
 /* featured podcast area */
