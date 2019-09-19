@@ -51,11 +51,28 @@ a{
 #header .menu_area{
 	float:right;
 }
+#header .menu_top{
+	height:50px;
+}
 #header .social img{
-	height:26px;
+	height:30px;
 }
 #header .login{
 	float:right;
+}
+#header .login li:nth-child(1){
+	padding:5px 10px;
+	border:solid 1px #FFFFFF;
+}
+#header .login li:nth-child(2){
+	padding:5px 10px;
+	border:solid 1px #FFFFFF;
+	color:#36414f;
+	background:#FFF;
+}
+#header .login li a{
+	font-size:14px;
+	font-weight:bold;
 }
 #header ul{
 	list-style-type:none;
@@ -64,7 +81,7 @@ a{
 #header li{
 	display:inline-block;
 }
-#header .header_top li:not(:last-child){
+#header .header_top .menu_bottom li:not(:last-child){
 	padding-right:15px;
 	font-size:15px;
 }
