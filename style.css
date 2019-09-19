@@ -68,6 +68,45 @@ a{
 	background-color:#f4f4f4;
 	padding-top:50px;
 }
+#companies .company_box{
+    height: 364px;
+    position: relative;
+	color:#FFF;
+}
+#companies span{
+	position: absolute;
+    width:100%;
+    height: inherit;
+}
+#companies .col-sm-3:nth-child(1) span{
+    background: linear-gradient(0deg,rgba(11,183,161,.7) 19%,rgba(1,1,1,.20) 100%);	
+}
+#companies .col-sm-6 span{
+    background: linear-gradient(0deg,rgba(13,91,143,.9) 9%,rgba(17,23,26,0.35) 100%);
+}
+#companies .col-sm-3:nth-child(3) span{
+    background: linear-gradient(0deg,rgba(17,23,26,0.35) 0,rgba(6,63,93,0.6) 43%,rgba(50,197,178,0.6) 100%);
+}
+#companies .col-sm-3:nth-child(4) span{
+    background: linear-gradient(0deg,rgba(227,74,58,.6) 10%,rgba(17,23,26,0.35) 60%);
+}
+
+
+#companies .company_box img{
+	width: 100%;
+	object-fit: cover;
+    height: inherit;
+	
+}
+#companies .company_box .company_data{
+	
+	padding:0px 15px;
+	position:absolute;
+	bottom:10px;
+}
+#companies .last{
+	height:181px !important;
+}
 
 #featured_jobs{
 	background-color:#063f5d;
