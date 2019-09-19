@@ -37,6 +37,10 @@ a:hover{
 	cursor:pointer;
 }
 
+h2{
+	font-size:22px;
+}
+
 
 /* header */
 #header{
@@ -263,12 +267,49 @@ a:hover{
 	padding-top:30px;
 	padding-bottom:30px;
 }
+#finance_category_area .my-col-5{
+	width:20%;
+	float:left;
+	padding:0px 15px;
+}
+
+#finance_category_area img{
+	display:block;
+	width:100%;
+	object-fit: cover;
+}
+#finance_category_area a{
+	color: #055789;
+    font-size: 17px;
+    font-weight: 600;
+}
+#finance_category_area p{
+	border-bottom: 3px solid #32c5b2;
+}
+
 
 /* upcoming courses area */
 #upcoming_courses_area{
-	background-color:#063f5d;
+	background-color:#fff;
 	padding-top:30px;
 	padding-bottom:30px;
+}
+#upcoming_courses_area h2{
+	text-align:center;
+}
+#upcoming_courses_area img{
+	display:block;
+	width:100%;
+	object-fit: cover;
+}
+#upcoming_courses_area a{
+	color:#005b87;
+	display: block;
+    font-size: 18px;
+    font-weight: 600;
+    text-align:center;
+    padding: 25px 10px;
+	border-bottom: 3px solid #32c5b2;
 }
 
 /* latest tips area */
