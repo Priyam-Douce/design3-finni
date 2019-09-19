@@ -214,6 +214,8 @@ a:hover{
 	margin:0px 20px 20px;
 }
 
+
+/* featured box */
 .featured_box{
 	background-color:#FFF;
 	border-bottom: 3px solid #32c5b2;
@@ -234,7 +236,6 @@ a:hover{
 	color:#FFF;
 	font-size:12px;
 }
-
 .featured_box .box_title{
 	display:block;
 	margin:10px;
@@ -248,17 +249,19 @@ a:hover{
 	font-size:13px;
 	padding-bottom:20px;
 	margin-bottom:0px;
-	
 }
-.featured_box .box_logo{
-	
+.featured_box .box_logo{	
 	background-image:url(images/featured_box_logo.png);
 	background-repeat: no-repeat;
 	padding-left:30px;
 	padding-bottom:20px;
-
-
 }
+
+/* finance category area */
+#finance_category{
+	
+}
+
 
 
 /* footer */
