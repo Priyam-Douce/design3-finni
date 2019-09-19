@@ -356,6 +356,24 @@ h2{
 	padding-bottom:30px;
 	color:#fff;
 }
+#featured_podcast_area a{
+	padding:10px 0px;
+	display: block;
+    font-size: 18px;
+    font-weight: 600; 
+}
+#featured_podcast_area button{
+	display: inline-block ;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff ;
+    font-size: 15px ;
+    padding: 10px 45px;
+    background: #e34a3c;
+	border:none;
+	font-weight:bold;
+	margin-top:50px;	
+}
 
 /* forum area */
 #forum_area{
@@ -363,6 +381,46 @@ h2{
 	padding-top:30px;
 	padding-bottom:30px;
 }
+#forum_area .poll_data{
+	background-color:#fff;
+}
+#forum_area .poll_data .data_area{
+	padding:15px;
+}
+#forum_area p{
+	background-color:#32c5b2;
+	color:#fff;
+	text-align:center;
+	padding:15px;
+}
+#forum_area .forum_data{
+	padding:15px;
+	background-color:#fff;
+}
+#forum_area .forum_data .row{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#forum_area .forum_data img{
+	width:170px;
+	height:106px;
+	object-fit: cover;
+	float:left;
+}
+
+#forum_area .forum_data a{
+	color:#005b87;
+	display: block;
+    font-size: 24px;
+    font-weight: 600;
+	padding-left:180px;
+	font-style:italic;
+}
+
+
+
+
+
 
 /* featured videos area */
 #featured_video_area{
