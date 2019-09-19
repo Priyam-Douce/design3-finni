@@ -51,6 +51,12 @@ a{
 #header .menu_area{
 	float:right;
 }
+#header .social img{
+	height:26px;
+}
+#header .login{
+	float:right;
+}
 #header ul{
 	list-style-type:none;
 	text-align:right;
