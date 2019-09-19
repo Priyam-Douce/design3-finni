@@ -258,11 +258,54 @@ a:hover{
 }
 
 /* finance category area */
-#finance_category{
-	
+#finance_category_area{
+	background-color:#f4f4f4;
+	padding-top:30px;
+	padding-bottom:30px;
 }
 
+/* upcoming courses area */
+#upcoming_courses_area{
+	background-color:#063f5d;
+	padding-top:30px;
+	padding-bottom:30px;
+}
 
+/* latest tips area */
+#latest_tips_area{
+	background-color:#f4f4f4;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+/* featured podcast area */
+#featured_podcast_area{
+	background-color:#063f5d;
+	padding-top:30px;
+	padding-bottom:30px;
+	color:#fff;
+}
+
+/* forum area */
+#forum_area{
+	background-color:#f4f4f4;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+/* featured videos area */
+#featured_video_area{
+	background-color:#fff;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+/* upcoming events & newsletter area */
+#upcoming_events_area{
+	background-color:#f4f4f4;
+	padding-top:30px;
+	padding-bottom:30px;
+}
 
 /* footer */
 #footer{
