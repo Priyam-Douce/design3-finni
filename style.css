@@ -294,7 +294,7 @@ h2{
 	padding-top:30px;
 	padding-bottom:30px;
 }
-#upcoming_courses_area h2, #latest_tips_area h2{
+#upcoming_courses_area h2, #latest_tips_area h2, #upcoming_events_area h2{
 	text-align:center;
 }
 #upcoming_courses_area img{
@@ -451,12 +451,107 @@ h2{
 
 
 
+/* newsletter area */
+#newsletter_area{
+	background-color:#f4f4f4;
+	padding-top:30px;
+	padding-bottom:30px;
+	color:#4a4a4a;
+}
+
+#newsletter_area .newsletter_box_left{
+	background-color:#32c5b2;
+	color:#FFF;
+	padding:120px 30px 30px;
+}
+#newsletter_area .newsletter_box_right{
+	background-color:#e2ecee;
+	padding:30px;
+	min-height:206px;
+}
+#newsletter_area p{
+	font-size:16px;
+	font-weight:bold;
+	color:#4a4a4a;
+	margin-bottom:30px;
+}
+#newsletter_area input[type=email]{
+	padding:15px;
+	border:none;
+	font-weight:bold;
+	width:380px;
+
+}
+#newsletter_area input[type=submit]{
+	padding:15px;
+	display: inline-block ;
+    text-align: center;
+    color: #fff ;
+    background: #e34a3c;
+	border:none;
+	font-weight:bold;
+}
+
+
+
+
 /* upcoming events & newsletter area */
 #upcoming_events_area{
 	background-color:#f4f4f4;
 	padding-top:30px;
 	padding-bottom:30px;
 }
+
+#upcoming_events_area .event_box{
+	background-color:#FFF;
+	min-height:262px;
+	padding-bottom:20px;
+}
+#upcoming_events_area .event_box img{
+	display:block;
+	width:100%;
+	object-fit: cover;
+}
+#upcoming_events_area .event_box .data_area{
+	padding:20px;
+}
+
+#upcoming_events_area .data_area a{
+	display:block;
+	margin-bottom:10px;
+	color:#075a84;
+	font-weight:bold;
+	font-size:20px;
+}
+#upcoming_events_area .data_area p{
+	margin-bottom:20px;
+}
+#upcoming_events_area .data_area button{
+	display: block;
+    text-align: center;
+    border-radius: 20px;
+    color: #e34a3c;
+    font-size: 15px;
+    padding: 10px 45px;
+    background: #fff;
+    border: solid 1px #e34a3c;
+    font-weight: bold;
+    margin:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 #footer{
