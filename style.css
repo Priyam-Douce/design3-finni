@@ -421,6 +421,9 @@ h2{
 #forum_area .poll_data{
 	background-color:#fff;
 }
+#forum_area .poll_data h3{
+	color:#005b87;
+}
 #forum_area .poll_data .data_area{
 	padding:15px;
 }
@@ -429,6 +432,31 @@ h2{
 	color:#fff;
 	text-align:center;
 	padding:15px;
+}
+#forum_area .poll_data ul{
+		padding:0px;
+		list-style-type:none;
+}
+#forum_area .poll_data .category{
+	font-weight:bold;
+}
+#forum_area .poll_data .voting_bar{
+	width: 100%;
+	background-color: #ddd;
+	height:16px;
+}
+#forum_area .poll_data .voting_bar span{
+	background:#005b87;
+	display:block;
+	height:inherit;
+}
+#forum_area .poll_data .voting{
+	text-align:right;
+	display:block;
+}
+#forum_area .poll_data .total{
+	display:block;
+	text-align:center;
 }
 #forum_area .forum_data{
 	padding:15px;
