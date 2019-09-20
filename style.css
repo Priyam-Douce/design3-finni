@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6{
 	margin:0px;
 }
 h2{
+	color: #004661;
 	font-size:22px;
 	margin-bottom:20px;
 }
@@ -61,7 +62,7 @@ h2{
 .special_heading span { 
 	background: #fff; 
 	background-color: var(--heading-bg-color);
-	padding: 0 15px; 
+	padding: 0 35px; 
 }
 
 
@@ -212,6 +213,7 @@ h2{
 }
 
 #companies .company_box img{
+	display:block;
 	width: 100%;
 	object-fit: cover;
     height: inherit;
@@ -223,11 +225,8 @@ h2{
 }
 
 #companies h2{
-	font-size:22px;
-	color:#033f64;
 	margin-top:40px;
 	margin-bottom:40px;
-	
 }
 
 
@@ -239,7 +238,6 @@ h2{
 }
 #featured_jobs h2{
 	color:#FFF;
-	margin:0px 20px 20px;
 }
 
 
@@ -291,11 +289,7 @@ h2{
 	padding-top:30px;
 	padding-bottom:30px;
 }
-#finance_category_area h2{
-	color:#004661;
-	margin-bottom:20px;
-	
-}
+
 #finance_category_area .my-col-5{
 	width:20%;
 	float:left;
@@ -327,10 +321,6 @@ h2{
 	padding-top:30px;
 	padding-bottom:30px;
 	--heading-bg-color: #fff ;
-}
-
-#upcoming_courses_area h2, #latest_tips_area h2, #upcoming_events_area h2{
-	  
 }
 
 #upcoming_courses_area img{
@@ -366,7 +356,8 @@ h2{
 	color:#005b87;
 	display: block;
     font-size: 18px;
-    font-weight: 600;  
+    font-weight: 600;
+	margin-bottom:10px;  
 }
 #latest_tips_area .top_text{
 	position: absolute;
@@ -396,24 +387,16 @@ h2{
 	padding-bottom:30px;
 	color:#fff;
 }
+#featured_podcast_area h2{
+	color:inherit;
+}
 #featured_podcast_area a{
 	padding:10px 0px;
 	display: block;
     font-size: 18px;
     font-weight: 600; 
 }
-#featured_podcast_area button{
-	display: inline-block ;
-    text-align: center;
-    border-radius: 20px;
-    color: #fff ;
-    font-size: 15px ;
-    padding: 10px 45px;
-    background: #e34a3c;
-	border:none;
-	font-weight:bold;
-	margin-top:50px;	
-}
+
 
 /* forum area */
 #forum_area{
@@ -476,18 +459,7 @@ h2{
     font-weight: 600; 
 	color:#063f5d;
 }
-#featured_video_area button{
-	display: inline-block ;
-    text-align: center;
-    border-radius: 20px;
-    color: #fff ;
-    font-size: 15px ;
-    padding: 10px 45px;
-    background: #e34a3c;
-	border:none;
-	font-weight:bold;
-	margin-top:50px;	
-}
+
 
 
 
@@ -570,18 +542,7 @@ h2{
 #upcoming_events_area .data_area p{
 	margin-bottom:20px;
 }
-#upcoming_events_area .data_area button{
-	display: block;
-    text-align: center;
-    border-radius: 20px;
-    color: #e34a3c;
-    font-size: 15px;
-    padding: 10px 45px;
-    background: #fff;
-    border: solid 1px #e34a3c;
-    font-weight: bold;
-    margin:auto;
-}
+
 
 
 /* reading and coment area */
@@ -619,21 +580,6 @@ h2{
 	font-weight:bold;
 	font-size:20px;
 }
-
-
-#reading_area button{
-	display: inline-block;
-    text-align: center;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 15px;
-    padding: 10px 45px;
-    background: #e34a3c;
-    border: none;
-    font-weight: bold;
-}
-
-
 #reading_area .comment{
 	background-color:#e2ecee;
 	padding:28px;
@@ -644,16 +590,6 @@ h2{
     line-height: 1.3em;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* footer */
 #footer{
 	color:#FFF;
@@ -662,9 +598,6 @@ h2{
 	padding-top:50px;
 	padding-bottom:20px;
 }
-#footer .logo{
-	margin-bottom:15px;
-}
 #footer ul{
 	list-style-type:none;
 	padding:0px;
@@ -672,6 +605,9 @@ h2{
 }
 #footer li{
 	display:inline-block;
+}
+#footer .logo{
+	margin-bottom:15px;
 }
 #footer .left_top_menu{
 	margin-bottom:12px;
@@ -684,7 +620,6 @@ h2{
 #footer .left_top_menu li:not(:last-child), #footer .right_top_menu li:not(:last-child) {
     margin-right: 14px;
 }
-
 #footer .left_bottom_menu a{
     color: #fff;
     font-size: 15px;
@@ -711,4 +646,53 @@ h2{
 }
 #footer .right_bottom_menu li+li{
 	padding-left:6px;
+}
+
+/* buttons */
+.btn_red_fill, .btn_red, .btn_white {
+	font-size: 15px;
+    padding: 10px 45px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.btn_red_fill{
+	display: inline-block;
+    color: #fff;
+    background: #e34a3c;
+	border: solid 1px #e34a3c;
+    
+}
+.btn_red_fill:hover{
+	color:#e34a3c;
+	background:#fff;
+}
+
+.btn_red{
+	display: block;
+    color: #e34a3c;
+    background: inherit;
+    border: solid 1px #e34a3c;
+    margin:auto;
+}
+.btn_red:hover{
+	background:#e34a3c;
+	color:#fff;
+}
+
+.btn_white{
+	display: block;
+    color: #fff;
+    background: inherit;
+    border: solid 1px #fff;
+    margin:auto;
+}
+.btn_white:hover{
+	background:#fff;
+	color:#063f5d;
+}
+.right{
+	margin-top:-10px;
+	float:right;
 }
