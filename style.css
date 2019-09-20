@@ -360,6 +360,7 @@ h2{
 	height:144px;
 	object-fit: cover;
 	float:left;
+	
 }
 #latest_tips_area a{
 	color:#005b87;
@@ -369,7 +370,7 @@ h2{
 }
 #latest_tips_area .top_text{
 	position: absolute;
-    top: 10px;
+    top: 22px;
     left: 22px;
 	width:130px;
     background-color: rgba(0,0,0,0.5);
@@ -377,9 +378,10 @@ h2{
     color: #FFF;
     font-size: 11px;
 }
-#latest_tips_area .row{
+.wide_box{
 	padding-top:15px;
 	padding-bottom:15px;
+	display:inline-block;
 }
 #latest_tips_area .data_area{
 	padding:10px;
@@ -502,11 +504,12 @@ h2{
 	background-color:#32c5b2;
 	color:#FFF;
 	padding:120px 30px 30px;
+	min-height:190px;
 }
 #newsletter_area .newsletter_box_right{
 	background-color:#e2ecee;
 	padding:30px;
-	min-height:206px;
+	min-height:190px;
 }
 #newsletter_area p{
 	font-size:16px;
@@ -550,6 +553,7 @@ h2{
 #upcoming_events_area .event_box img{
 	display:block;
 	width:100%;
+	height:155px;
 	object-fit: cover;
 }
 #upcoming_events_area .event_box .data_area{
@@ -588,6 +592,7 @@ h2{
 }
 #reading_area .box_area{
 	padding:20px;
+	padding-top:28px;
 	min-height:256px;
 }
 #reading_area .reading{
@@ -603,7 +608,7 @@ h2{
 	padding-left:200px;
 }
 #reading_area h3{
-	margin-top:0px;
+	margin-bottom:10px;
 	font-size:18px;
 	color:#06578c;
 }
@@ -631,6 +636,7 @@ h2{
 
 #reading_area .comment{
 	background-color:#e2ecee;
+	padding:28px;
 }
 #reading_area .comment q{
 	font-size: 24px;
