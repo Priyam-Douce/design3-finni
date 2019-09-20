@@ -540,8 +540,63 @@ h2{
 }
 
 
+/* reading and coment area */
+#reading_area{
+	background-color:#f4f4f4;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+#reading_area .box_area{
+	padding:20px;
+	min-height:256px;
+}
+#reading_area .reading{
+	background-color:#fff;
+}
+#reading_area .reading img{
+	width:180px;
+	height:180px;
+	object-fit: cover;
+	float:left;
+}
+#reading_area .reading .data_area{
+	padding-left:200px;
+}
+#reading_area h3{
+	margin-top:0px;
+	font-size:18px;
+	color:#06578c;
+}
+#reading_area a{
+	display:block;
+	margin-bottom:10px;
+	color:#075a84;
+	font-weight:bold;
+	font-size:20px;
+}
 
 
+#reading_area button{
+	display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 45px;
+    background: #e34a3c;
+    border: none;
+    font-weight: bold;
+}
+
+
+#reading_area .comment{
+	background-color:#e2ecee;
+}
+#reading_area .comment q{
+	font-size: 24px;
+    font-style: italic;
+    line-height: 1.3em;
+}
 
 
 
