@@ -36,9 +36,32 @@ a:hover{
 	text-decoration:none;
 	cursor:pointer;
 }
-
+h1, h2, h3, h4, h5, h6{
+	margin:0px;
+}
 h2{
 	font-size:22px;
+	margin-bottom:20px;
+}
+.special_heading{
+	text-align:center;
+    position: relative;
+    z-index: 1; 
+
+}
+.special_heading:before {
+	border-top: 1px solid #429cb7;
+	content:"";
+	margin: 0 auto; 
+	position: absolute;
+	top: 50%; left: 0; right: 0; bottom: 0;
+	width: 100%;
+	z-index: -1;
+}
+.special_heading span { 
+	background: #fff; 
+	background-color: var(--heading-bg-color);
+	padding: 0 15px; 
 }
 
 
@@ -203,7 +226,8 @@ h2{
 	font-size:22px;
 	color:#033f64;
 	margin-top:40px;
-	margin-bottom:20px;
+	margin-bottom:40px;
+	
 }
 
 
@@ -267,6 +291,11 @@ h2{
 	padding-top:30px;
 	padding-bottom:30px;
 }
+#finance_category_area h2{
+	color:#004661;
+	margin-bottom:20px;
+	
+}
 #finance_category_area .my-col-5{
 	width:20%;
 	float:left;
@@ -282,9 +311,13 @@ h2{
 	color: #055789;
     font-size: 17px;
     font-weight: 600;
+	margin:10px auto;
+	display:block;
 }
 #finance_category_area p{
+	padding-bottom:20px;
 	border-bottom: 3px solid #32c5b2;
+	line-height: 1.5em;
 }
 
 
@@ -293,27 +326,13 @@ h2{
 	background-color:#fff;
 	padding-top:30px;
 	padding-bottom:30px;
+	--heading-bg-color: #fff ;
 }
 
 #upcoming_courses_area h2, #latest_tips_area h2, #upcoming_events_area h2{
-	text-align:center;
-    position: relative;
-    z-index: 1;   
+	  
 }
-#upcoming_events_area h2:before {
-	border-top: 1px solid #429cb7;
-	content:"";
-	margin: 0 auto; 
-	position: absolute;
-	top: 50%; left: 0; right: 0; bottom: 0;
-	width: 100%;
-	z-index: -1;
-}
-#upcoming_events_area h2 span { 
-        background: #fff; 
-		background-color: var(--header-bg-color);
-        padding: 0 15px; 
-    }
+
 #upcoming_courses_area img{
 	display:block;
 	width:100%;
@@ -334,6 +353,7 @@ h2{
 	background-color:#f4f4f4;
 	padding-top:30px;
 	padding-bottom:30px;
+	--heading-bg-color: #f4f4f4 ;
 }
 #latest_tips_area img{
 	width:144px;
@@ -351,10 +371,11 @@ h2{
 	position: absolute;
     top: 10px;
     left: 22px;
+	width:130px;
     background-color: rgba(0,0,0,0.5);
-    padding: 5px 10px;
+    padding: 5px 6px;
     color: #FFF;
-    font-size: 12px;
+    font-size: 11px;
 }
 #latest_tips_area .row{
 	padding-top:15px;
@@ -444,6 +465,7 @@ h2{
 	background-color:#fff;
 	padding-top:30px;
 	padding-bottom:30px;
+	line-height:1.5em;
 }
 #featured_video_area a{
 	padding:10px 0px;
@@ -517,7 +539,7 @@ h2{
 	background-color:#f4f4f4;
 	padding-top:30px;
 	padding-bottom:30px;
-	--header-bg-color: #f4f4f4;
+	--heading-bg-color: #f4f4f4;
 }
 
 #upcoming_events_area .event_box{
