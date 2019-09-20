@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6{
 }
 h2{
 	color: #004661;
-	font-size:22px;
+	font-size:26px;
 	margin-bottom:20px;
 }
 .special_heading{
@@ -385,16 +385,30 @@ h2{
 	background-color:#063f5d;
 	padding-top:30px;
 	padding-bottom:30px;
+	line-height:1.5em;
 	color:#fff;
 }
 #featured_podcast_area h2{
 	color:inherit;
 }
-#featured_podcast_area a{
+#featured_podcast_area a, #featured_video_area a{
 	padding:10px 0px;
 	display: block;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600; 
+}
+#featured_podcast_area p, #featured_video_area p{
+	margin-bottom:50px;	
+}
+/* featured videos area */
+#featured_video_area{
+	background-color:#fff;
+	padding-top:30px;
+	padding-bottom:30px;
+	line-height:1.5em;
+}
+#featured_video_area a{
+	color:#063f5d;
 }
 
 
@@ -445,20 +459,7 @@ h2{
 
 
 
-/* featured videos area */
-#featured_video_area{
-	background-color:#fff;
-	padding-top:30px;
-	padding-bottom:30px;
-	line-height:1.5em;
-}
-#featured_video_area a{
-	padding:10px 0px;
-	display: block;
-    font-size: 18px;
-    font-weight: 600; 
-	color:#063f5d;
-}
+
 
 
 
@@ -651,10 +652,14 @@ h2{
 /* buttons */
 .btn_red_fill, .btn_red, .btn_white {
 	font-size: 15px;
-    padding: 10px 45px;
+    padding: 8px 45px;
 	text-align: center;
 	font-weight: bold;
 	border-radius: 20px;
+}
+
+h2 .btn_red, .btn_white{
+	padding:10px 35px;
 }
 
 .btn_red_fill{
@@ -692,7 +697,7 @@ h2{
 	background:#fff;
 	color:#063f5d;
 }
-.right{
+button.right{
 	margin-top:-10px;
 	float:right;
 }
