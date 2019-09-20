@@ -612,8 +612,57 @@ h2{
 #footer{
 	color:#FFF;
 	background-color:#404040;
-	height:200px;
+	min-height:200px;
+	padding-top:50px;
+	padding-bottom:20px;
 }
 #footer .logo{
-	margin-top:50px;
+	margin-bottom:15px;
+}
+#footer ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+#footer li{
+	display:inline-block;
+}
+#footer .left_top_menu{
+	margin-bottom:12px;
+}
+#footer .left_top_menu a{
+	color:#34c5b3;
+	font-size:14px;
+	font-weight:bold;
+}
+#footer .left_top_menu li:not(:last-child), #footer .right_top_menu li:not(:last-child) {
+    margin-right: 14px;
+}
+
+#footer .left_bottom_menu a{
+    color: #fff;
+    font-size: 15px;
+    line-height: 9px !important;
+    padding-right: 25px;
+}
+#footer .left_bottom_menu li+li a{
+	padding-left:25px;
+	border-left: 1px solid #fff;
+}
+#footer .right_top_menu, #footer .right_bottom_menu{
+	text-align:right;
+}
+#footer .right_top_menu{
+	margin:15px 0px;
+}
+#footer .right_top_menu a{
+	color: #fff;
+    text-transform: uppercase;
+	font-weight:bold;
+}
+#footer .right_bottom_menu img{
+	height:42px;
+}
+#footer .right_bottom_menu li+li{
+	padding-left:6px;
 }
