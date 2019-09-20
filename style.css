@@ -294,9 +294,26 @@ h2{
 	padding-top:30px;
 	padding-bottom:30px;
 }
+
 #upcoming_courses_area h2, #latest_tips_area h2, #upcoming_events_area h2{
 	text-align:center;
+    position: relative;
+    z-index: 1;   
 }
+#upcoming_events_area h2:before {
+	border-top: 1px solid #429cb7;
+	content:"";
+	margin: 0 auto; 
+	position: absolute;
+	top: 50%; left: 0; right: 0; bottom: 0;
+	width: 100%;
+	z-index: -1;
+}
+#upcoming_events_area h2 span { 
+        background: #fff; 
+		background-color: var(--header-bg-color);
+        padding: 0 15px; 
+    }
 #upcoming_courses_area img{
 	display:block;
 	width:100%;
@@ -500,6 +517,7 @@ h2{
 	background-color:#f4f4f4;
 	padding-top:30px;
 	padding-bottom:30px;
+	--header-bg-color: #f4f4f4;
 }
 
 #upcoming_events_area .event_box{
